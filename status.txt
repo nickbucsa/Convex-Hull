@@ -1,1 +1,7 @@
-Nicolae Bucsa - Project 1
+// COMP 282
+// CSUN - Fall 2019
+// Nicolae Bucsa
+// Project 1 - Convex Hull
+
+	The program works as required in the project specifications. It compiles and it runs as expected. The output matches the correct format specified. There are plenty of comments throughout the entire program so that anybody with some background in programming can understand what each line of code means. Length of lines is not longer than 80 characters. All methods have less that 30 lines of code, except the main method, which has 35 due to some commented lines that are there so the user can test intermediate steps if he wishes.
+	Best regards, Nick.

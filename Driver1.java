@@ -14,17 +14,17 @@ class Driver1 {
 		try {
 			ConvexHull rf = new ConvexHull();
 			rf.read();
-			if (rf.points.size() < 3) {
+			if (rf.points.size() < 3) { // less than 3 points => no boundary
 				System.out.println("Not enough points in the file!");
 				System.exit(0);
 			}
 			rf.upperEnvelope();
-			System.out.println("Points in upper envelope:" + rf.upperPoints);
+			//System.out.println("Points in upper envelope:" + rf.upperPoints);
 			rf.lowerEnvelope();
-			System.out.println("Points in lower envelope:" + rf.lowerPoints);
+			//System.out.println("Points in lower envelope:" + rf.lowerPoints);
 			Scanner sc = new Scanner(System.in);
 			while (true) {
-				System.out.print("Test point: \n>");
+				System.out.print("\nTest point: \n>");
 				String input = sc.nextLine();
 				if (input.equalsIgnoreCase("quit"))
 					break;
